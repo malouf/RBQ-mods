@@ -1,0 +1,141 @@
+﻿- added options to switch confirmations
+- loot from chests - should be showed as notification, if left behind
+- add a option to rename all items back
+- highscores tables
+- option to switch to royal relic names
+- enemies now trying to be on screen
+
+0.710
++ autofocus when opening map on player position(tnx Malouf)
++ relics descriptions for mobiles now shows on bot as well(tnx Malouf)
++ That Enought(blood) fixed(tnx eolevan)
++ Flex(red) fixed(tnx Lucas Galioni)
++ Shive(Defect) cards added 51/75
++ Shive pets attack animations added
++ descriptions maintenance
+tnx guys - discord and google play beta!
+
+0.709
++ card descriptions maintenance
++ save slots separated for each hero
+
+0.708
++ relics are not clickable anymore if there is any wnd on top
++ ios swipe indicator off
+
+0.705
++ library added
+
+0.704
++ basic tutorial added
++ improved targeting
++ fixed to scores&stats
++ maintenance
+
+0.703
++ scores screen moved to map
++ fixes to scores
++ fixed Doll of Decay
+
+0.700
++ relic names are now StS
++ resize
++ back btn
++ fixed same card rewards
++ GPGS added - highscores and stats
+
+0.692
++ shiva images added
++ fixed enforcing cards to pick
++ fixed softlock on Well laid plan(green)
++ renamed all relics
++ new relic - extra card reward after battle
++ fixed If you close boss relic chest, it gets new relics
++ fixed enemy - Darklings(Vampires)
++ Demon pain is now always on
++ new relics: Wrist Blade(shiv,boss), The Abacus(shop), Clockwork Souvenir(shop), Twisted Funnel(poison, shop)
+
+0.690
++ fixed Burning Pact(red), Mind Blast, Enlightenment, Meteor Strike
++ changed Hide and Wait, Masochism, Made in Abyss
++ added some music(from Royal Heroes by Ryan Davies)
++ added few sounds effects
++ added few ambients
++ menu - added options: snd, music, gui size(it does matter=)
++ rest - fixed if there are no card to upgrade
++ add battlefervorMlt description
++ fixed Donu&Deca (boss)
++ difficulty after act3: +0.5 str/act, +10*act(or +10%*act) HP.
+
+0.680
++ fixed few more lang strings
++ fixed Smith cancelation
++ added dmgmultiply description
++ fixed quests - ones that demanding something in return
++ russian and english is updated
++ fixed lantern
++ Shive(Defect) cards added 44/75
+tnx Knights@Discord!
+
+0.670
++ fixes to texts
++ fixed upgrades - hiding stuff that are not upgradeable
++ fixes to Searing Blow(red), The Dark Half(blood)
++ revives separated and fixed on Relics and Cards
++ after act 3 - enemies will have 10% or 10 more hp(temporary solution)
++ fixed confirmation wnd for upgrading
++ chests can be re-opened
+
+0.660
++ lots of fixes to English
++ fixed - when too much relics - some of them was off screen
++ Infinity Blades(green) - fixed
++ shop remove card confirmation - changed
++ Shive(Defect) cards added 42/75
+tnx illuminande, shadowfax45, stubbieoz
+
+0.650
++ green card images added
++ fixes to events and relics
++ added confirmation box for upgrading card
++ added confirmation box for shop
++ fixes to green cards
++ fixed description for Storm(green)
+tnx illuminande, shadowfax45, stubbieoz
+
+0.640
++ fixed buying Bottle Items at the shop
++ fixed Combustion and Juggernaut(Red)
++ Discarding more then one now works better
++ Discarding same cards now is not an option
++ Shive(Defect) cards added 41/75
+
+0.630
++ Shop scale fixed
++ fixes to code and to lang
++ Shive(Defect) cards added 23/75
++ New potions added
++ added Potions to Shop
++ "Shroud of Darkness" fixed.
+tnx AJ Rolfe
+
+0.625
++ added exit for menu
++ kaboom fixed
++ Elf and Snake - fixed
++ bootles fixed
++ fixes to: immaculate, energy vein
++ tested: Thousend Cuts, Big Fish
+tnx AJ Rolfe, Стася Лёв, 박인우, Francisco
+
+- act2, act3 enemy level fixed
+- changes to Demon
+- lots of fixes: saves, lang, etc
+- added link to discord
+
+- fixes to violet
+- fixes to shop
+
+- fixed weak for conditions
+- added voodoo stuff
+- added mech stuff

@@ -1,0 +1,26 @@
+[{
+    "dmg":6,
+    "rarity":0,
+    "ctype":1,
+    "class":"any",
+    "range":"enemy",
+    "onUpgrade":{
+      "dmg":9
+    },
+    "strX":1,
+    "armor":0,
+    "poison":0,
+    "energy":1,
+    "tag":"Strike"
+  },{
+    "rarity":0,
+    "range":"self",
+    "onUpgrade":{
+      "armor":8
+    },
+    "ctype":2,
+    "armor":5,
+    "class":"any",
+    "energy":1,
+    "tag":"Defend"
+  }]

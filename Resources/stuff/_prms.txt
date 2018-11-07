@@ -1,0 +1,400 @@
+woundsToHand	woundsToHand	woundsToHand_hint
+	values:	2
+class	class	class_hint
+	values:	voodoo, blue, negative, blood, violet, mech, green, none, fire, any, red
+strMlt	strMlt	strMlt_hint
+	values:	2
+dex	Dexterity	Increases the Armor gained by 1 for each stack of Dexterity
+	values:	-1, 2
+deckToDmg	deckToDmg	deckToDmg_hint
+	values:	1
+ifEnemy	ifEnemy	ifEnemy_hint
+	values:	table: 0C7D12F0, table: 0C7DD870, table: 1167EB68, table: 0C7DD460, table: 1168BFE8, table: 0C7D1318, table: 0C7DBCF0, table: 1168CBF0, table: 0C7D0AA8, table: 0C7D1278, table: 0C7D0508, table: 0C7D1368, table: 1167EDE8, table: 1167DD30, table: 1167D790, table: 11689E28, table: 11688EB0, table: 0C7DCA60, table: 11686700, table: 0C7DC858, table: 0C7D1F48, table: 0C7D1750, table: 0C7D0940, table: 0C7D1980
+addCards	addCards	addCards_hint
+	values:	table: 1168C3F8, table: 11689EF0, table: 0C7DE428, table: 1167C368, table: 0C7DDE60
+ignore	ignore	ignore_hint
+	values:	nulify, harm, battlefervor, dmg
+onKill	onKill	onKill_hint
+	values:	table: 0C7DFA58
+addDmgByCard	addDmgByCard	addDmgByCard_hint
+	values:	table: 0C7DB5C0, table: 0C7D0C10
+once	once	once_hint
+	values:	table: 0C7DD758, table: 11686B38, table: 0C7D19D0, table: 0C7D17C8, table: 11689EC8, table: 11685D50, table: 0C7DBC50, table: 11685A30, table: 11685648, table: 11685288, table: 11683A00, table: 0C7DBB60
+vulnerableSelf	vulnerableSelf	vulnerableSelf_hint
+	values:	3
+drawUntil	drawUntil	drawUntil_hint
+	values:	6
+onTurn	onTurn	onTurn_hint
+	values:	table: 0C7CF770, table: 0C7CF860, table: 0C7CF798, table: 0C7CF720
+cleanse	Cleanse	cleanse_hint
+	values:	true
+ctype	ctype	ctype_hint
+	values:	1, 3, 2, 5, 4
+harm	Harm	harm_hint
+	values:	1, 0, 3, 2, 5, 4, 6, 10
+range	range	range_hint
+	values:	self, rndmiss, rnd, enemies, enemy
+eventAll	eventAll	eventAll_hint
+	values:	burned
+dmgByAttrFromTarget	dmgByAttrFromTarget	dmgByAttrFromTarget_hint
+	values:	armor, poison, charm
+drawRnd	drawRnd	drawRnd_hint
+	values:	2
+strX	strX	Strength affects this Attack X times
+	values:	1, 0, 3
+onUse	onUse	onUse_hint
+	values:	table: 0C7DDAC8, table: 0C7CF540, table: 11685C60, table: 0C7CF478, table: 1168A0A8, table: 11687128, table: 0C7DEEA0, table: 0C7DEA68, table: 11683C30, table: 0C7DDB68, table: 0C7D1ED0, table: 11685DC8, table: 11686430, table: 0C7DB610, table: 0C7DC3A8, table: 11685C10, table: 0C7D23D0, table: 1168C380, table: 0C7DEDB0, table: 0C7D0E90, table: 116857D8, table: 0C7DB7A0, table: 1167C480, table: 0C7CF338, table: 1167C570, table: 1168C858, table: 0C7DC4E8, table: 0C7DC358, table: 0C7CF4A0, table: 1168BD18, table: 0C7CF360, table: 1168A968, table: 116883C0, table: 0C7DC6F0, table: 0C7DB138, table: 11685828, table: 0C7DC5D8, table: 0C7DB110, table: 0C7DB3B8, table: 0C7CF1D0, table: 1168BCF0, table: 0C7D1890, table: 0C7DB9A8, table: 0C7DC3F8
+energyAdd	energyAdd	energyAdd_hint
+	values:	1, -1, 2
+hand	hand	Hand
+	values:	table: 11686458, table: 11686C28, table: 0C7DF030, table: 0C7DB908, table: 11685EE0, table: 0C7D18E0, table: 11688E10, table: 1168A3A0, table: 0C7DC268, table: 0C7DBFC0, table: 0C7DD960, table: 1168A6C0, table: 0C7DE3D8
+missingHP	missingHP	missingHP_hint
+	values:	table: 0C7D06C0, table: 0C7D2678
+discount	discount	discount_hint
+	values:	played_ctype3, attacked, harmed, discard
+poisonMlt	poisonMlt	poisonMlt_hint
+	values:	2
+heal	Heal	heal_hint
+	values:	1, 4, 2
+dmgByAttrFromSource	dmgByAttrFromSource	dmgByAttrFromSource_hint
+	values:	card_type_1_played, battlefervor, card_type_2_hand, accuracy, armor, summoned_frost, summoned_lightning
+armorMlt	armorMlt	armorMlt_hint
+	values:	2
+drawToDmg	drawToDmg	drawToDmg_hint
+	values:	1
+harmRnd	harmRnd	harmRnd_hint
+	values:	5, 1, 2
+ethereal	Ethereal	This card will Exhaust itself in your hand at the end of turn
+	values:	true
+rndCards	rndCards	rndCards_hint
+	values:	table: 11688938, table: 11688488, table: 11689158, table: 1167E050, table: 11688140
+create	create	create_hint
+	values:	table: 0C7CF518, table: 0C7DE888, table: 1168CB50, table: 0C7DC678, table: 0C7D2560, table: 0C7D2150, table: 0C7CF450
+times	times	times_hint
+	values:	1, 3, 2, 5, 4, 7, 6
+onConditions	onConditions	onConditions_hint
+	values:	table: 1167DD08, table: 1167DE20, table: 1167E898, table: 1167D600, table: 1167D448, table: 1167D240, table: 1167E870, table: 1167D830, table: 1167E438, table: 1167E5C8
+unlimited	Unlimited	Can be upgraded any number of times
+	values:	true
+ifDraw	ifDraw	ifDraw_hint
+	values:	table: 11686ED0, table: 0C7D1DB8, table: 0C7DE6D0
+shuffle	shuffle	shuffle_hint
+	values:	true
+strRnd	strRnd	strRnd_hint
+	values:	4
+exhaust	Exhaust	Removes the card from the active deck until the end of combat
+	values:	true
+rarity	rarity	rarity_hint
+	values:	1, 0, 3, 2
+feed	Feed	feed_hint
+	values:	3
+nulify	Nullify	nulify_hint
+	values:	str, battlefervor, poison, armor
+charmMlt	charmMlt	charmMlt_hint
+	values:	2
+energy	energy	energy_hint
+	values:	1, x, 3, 2, 5, 4, 0
+poisonRnd	poisonRnd	poisonRnd_hint
+	values:	6
+weakRnd	weakRnd	weakRnd_hint
+	values:	4, 2
+healRnd	healRnd	healRnd_hint
+	values:	1
+onDiscard	If this card is discarded	onDiscard_hint
+	values:	table: 0C7DE6A8, table: 0C7DF378, table: 0C7DCD80
+retain	retain	If played will return to hand
+	values:	true
+harmToBlock	harmToBlock	harmToBlock_hint
+	values:	1
+draw	draw	Discard Pile
+	values:	1, 3, 2
+vamp	Vampirism	vamp_hint
+	values:	1
+dtype	dtype	dtype_hint
+	values:	2
+super	super	super_hint
+	values:	true
+dmg	Damage	dmg_hint
+	values:	40, 80, 25, 24, 21, 15, 9, 10, 13, 1, 0, 3, 2, 5, 18, 7, 6, 14, 8, 16, 4, 20, 12, 11, 32
+pets	Pets	pets_hint
+	values:	table: 1168CE20, table: 1168C7B8, table: 1168C8F8, table: 1167C188, table: 1168CBC8, table: 1168BE08, table: 1168CB28, table: 1168B9F8, table: 1167C340, table: 1168C218, table: 1168C7E0, table: 1168C290, table: 1168C038
+armor	Armor	Reduces incoming damage by the amount of Armor
+	values:	1, 0, 3, 2, 5, 4, 7, 6, 9, 15, 12, 30, 8, 10
+onDraw	Whenever you draw this card	onDraw_hint
+	values:	table: 0C7DD5F0
+armorRnd	armorRnd	armorRnd_hint
+	values:	5, 4, 6
+energyAddRnd	energyAddRnd	energyAddRnd_hint
+	values:	5, 1, 2
+dmgRnd	dmgRnd	dmgRnd_hint
+	values:	1, 3, 2, 5, 4, 7, 6, 9, 12, 10
+rnd	rnd	rnd_hint
+	values:	table: 11687AB0, table: 116887A8, table: 11688258, table: 11688FF0, table: 11688280, table: 11688AC8, table: 116889B0, table: 11688640
+drawPlayExhaust	drawPlayExhaust	drawPlayExhaust_hint
+	values:	1
+escape	escape	escape_hint
+	values:	false
+playable	playable	playable_hint
+	values:	attack_hand, harmed, unplayable, lastcard
+nextTurn	nextTurn	nextTurn_hint
+	values:	table: 0C7DD410, table: 1168C740, table: 0C7D2308, table: 0C7DEB80, table: 0C7DEBD0, table: 0C7DDFA0, table: 0C7DE040, table: 0C7D1EF8, table: 0C7DCF88
+battlefervorMlt	battlefervorMlt	battlefervorMlt_hint
+	values:	2
+getAddDmgByAttr	getAddDmgByAttr	getAddDmgByAttr_hint
+	values:	table: 11685670
+woundsToDeck	woundsToDeck	woundsToDeck_hint
+	values:	1
+deckToEnergy	Gain 1 Energy for every VAL cards in your draw pile	deckToEnergy_hint
+	values:	6
+dmgPerUpgrade	dmgPerUpgrade	dmgPerUpgrade_hint
+	values:	5, 4
+onExhaust	on exhaust	onExhaust_hint
+	values:	table: 0C7DC498
+potion	potion	potion_hint
+	values:	1
+innate	Innate	Always begin combat with this card in your hand
+	values:	true
+
+
+conditions:
+charm	Charm	Increases damage taken per point. Each turn reduced by 1
+	condition:	{debuff=true,hinted=true,expire=1,event="dmg",play={dmg=1,dtype=3,range="self",strX=0}}
+enlightenment	Enlightenment	Reduce the cost of cards in your hand to 1 for VAL turs
+	condition:	{expire=1,event="turn",expireAtEnd=true}
+doubletap	doubletap	doubletap_hint
+	condition:	{event="played_1",expire=99}
+magicwall	magicwall	magicwall_hint
+	condition:	{play={armor=1,dexX=0,range="self"},expire=1,event="played_2",expireAtEnd=true}
+silenceskills	silenceskills	silenceskills_hint
+	condition:	{expire=1,event="death",expireAtEnd=true}
+flamebarrier	flamebarrier	flamebarrier_hint
+	condition:	{expire=99,event="dmg",play={dmg=1,dtype=3,range="enemy",strX=0}}
+flaming	Flaming	flaming_hint
+	condition:	{expire=99,event="udmg",play={range="self",burn=1}}
+vulnerable	Vulnerable	Vulnerable target take 50% more damage from Attacks
+	condition:	{debuff=true,expire=1,event="turn",expireAtEnd=true}
+poison	Poison	At the start of turn, Target loses HP and loses a point of Poison
+	condition:	{hinted=true,expire=1,event="turn",debuff=true}
+dollofdecay	Doll of Decay	dollofdecay_hint
+	condition:	{voodoo=true,target="source",expireAtEnd=false,hinted=true,expire=1,event="turnEnd",play={str=-1,range="rnd",strNext=1}}
+battlefervor	BF	battlefervor_hint
+	condition:	{target="source",expireAtEnd=true,hinted=true,expire=99,event="turnEnd",play={range="self",heal=1}}
+drawless	Silence	draw 1 less card next VAL turn
+	condition:	{expire=1,event="turn",debuff=true}
+intangible	Intangible	Reduces all damage and HP loss you take to 1
+	condition:	{hinted=true,expire=1}
+frozen	Mute	You cannot draw any cads this turn
+	condition:	{expire=1}
+blur	Blur	Armor is not removed at the start of your next turn
+	condition:	{event="turn",expire=1}
+dmgmultiply	dmgmultiply	dmgmultiply_hint
+	condition:	{event="turn",expire=99}
+cascadingrecharge	cascadingrecharge	cascadingrecharge_hint
+	condition:	{expire=-1,event="turn",play={dmg=1,dtype=3,range="enemy",strX=0}}
+frail	Frail	Reduces the Armor by 25%
+	condition:	{debuff=true,expire=1,event="turn",expireAtEnd=true}
+doubleskill	doubleskill	doubleskill_hint
+	condition:	{event="played_2",expire=99}
+doublepower	doublepower	doublepower_hint
+	condition:	{event="played_3",expire=99}
+weak	Weak	All attack damage dealt by a weakened entity is reduced by 25%
+	condition:	{intend=true,debuff=true,expireAtEnd=true,hinted=true,expire=1,event="turn"}
+ritualist	Ritualist	ritualist_hint
+	condition:	{expire=99,event="played_2",play={range="self",battlefervor=1}}
+impskin	impskin	impskin_hint
+	condition:	{expire=99,event="played_2",play={range="self",burningplates=1}}
+rage	Rage	rage_hint
+	condition:	{expire=99,event="played_1",play={armor=1,dexX=0}}
+choke	Choke	choke_hint
+	condition:	{expire=99,event="enemy_played_any",play={range="self",harm=1}}
+dollofhope	Doll of Hope	dollofhope_hint
+	condition:	{voodoo=true,target="source",expireAtEnd=false,hinted=true,expire=1,event="turnEnd",play={range="self",heal=1}}
+dollofpain	Doll of Pain	dollofpain_hint
+	condition:	{voodoo=true,target="source",expireAtEnd=false,hinted=true,expire=1,event="turnEnd",play={dmg=1,strX=0,dtype=3,range="rnd",tag="dollofpain"}}
+dollofacid	Doll of Acid	dollofacid_hint
+	condition:	{voodoo=true,target="source",expireAtEnd=false,hinted=true,expire=1,event="turnEnd",play={range="rnd",poison=1}}
+
+
+powers:
+str	Strength	Increases damage dealt per point
+	power:	{hinted=true}
+wickedcircle	wickedcircle	wickedcircle_hint
+	power:	{event="harm",play={range="rnd",vulnerable=1}}
+painconversion	painconversion	painconversion_hint
+	power:	{event="udmg",play={range="self",energyAdd=1}}
+lockon	lockon	lockon_hint
+	power:	{}
+ashmaker	Ashmaker	ashmaker_hint
+	power:	{event="turn",play={range="self",onUse={skip=true,action="transform",filter={"ctype","all",false},target="hand",val="Ash"}}}
+strNext	Strength Next Turn	strNext_hint
+	power:	{msg=false}
+scardiary	scardiary	scardiary_hint
+	power:	{event="turn",play={onUse={target="hand",amount="rnd",action="upgrade",filter={"ctype","all",false}}}}
+protect	protect	protect_hint
+	power:	{play={armor=1,dexX=0,range="self"},event="turnEnd",expireAtEnd=true}
+supercharge	Supercharge	supercharge_hint
+	power:	{event="dmg",play={range="self",energyAdd=1}}
+discardstatuses	discardstatuses	discardstatuses_hint
+	power:	{event="turn",play={range="self",onUse={target="hand",amount="rnd",action="exhaust",filter={"ctype",4,true}}}}
+spike	Spike	Whenever you are attacked, deal VAL damage to the attacker
+	power:	{event="dmg",play={gfx_target="spikes3",strX=0,dmg=1,range="enemy",dtype=3}}
+weaknessshroud	weaknessshroud	weaknessshroud_hint
+	power:	{event="dmg",play={range="rnd",weak=1}}
+voodoo	Voodoo	voodoo_hint
+	power:	{}
+accuracy	Accuracy	Shivs deal VAL additional damage
+	power:	{}
+masochism	Masochism	masochism_hint
+	power:	{event="dmg",play={range="self",draw=1}}
+gardenofstones	gardenofstones	gardenofstones_hint
+	power:	{event="played_1",play={armor=1,dexX=0}}
+charmtodmg	charmtodmg	charmtodmg_hint
+	power:	{event="turn",play={range="enemies",ifEnemy={condition="charm",play={range="enemy",dmg=1}}}}
+sadistic	sadistic	Whenever you apply a Debuff to an enemy, they take DMG damage
+	power:	{event="debuff",play={dmg=1,dtype=3,range="enemy",strX=0}}
+drawondebuff	drawondebuff	drawondebuff_hint
+	power:	{event="debuff",play={draw=1,range="self"}}
+drawperenemy	drawperenemy	drawperenemy_hint
+	power:	{event="turn",play={range="enemies",draw=1}}
+toolsofthetrade	toolsofthetrade	toolsofthetrade_hint
+	power:	{event="turn",play={draw=1,range="self",onUse={target="hand",amount=1,action="discard",filter={"ctype","all",false}}}}
+darkembrace	darkembrace	darkembrace_hint
+	power:	{event="exhausted",play={draw=1}}
+bleeding	bleeding	bleeding_hint
+	power:	{event="turnEnd",play={range="self",harm=1}}
+charmtoenergy	charmtoenergy	charmtoenergy_hint
+	power:	{event="turn",play={range="enemies",ifEnemy={condition="charm",play={range="enemy",energyAdd=1}}}}
+shadowhand	shadowhand	shadowhand_hint
+	power:	{event="turn",play={range="self",doubletap=1}}
+acolytes	Acolytes	acolytes_hint
+	power:	{event="turn",play={range="self",onConditions={attr="voodoo",onCount={range="self",energyAdd=1},range="self",val=true}}}
+callofshadows	callofshadows	callofshadows_hint
+	power:	{event="turnEnd",play={range="self",onConditions={attr="voodoo",onCount={range="rnd",dmg=1},range="self",val=true}}}
+vulnerabilityshroud	vulnerabilityshroud	vulnerabilityshroud_hint
+	power:	{event="turn",play={range="rnd",vulnerable=1}}
+helloworld	helloworld	helloworld_hint
+	power:	{event="turn",play={range="self",create={attr="rarity",count=1,val=1}}}
+repairing	repairing	repairing_hint
+	power:	{event="battle_won",play={range="self",heal=1}}
+oneversusall	oneversusall	oneversusall_hint
+	power:	{event="turn",play={armor=1,dexX=0,range="enemies"}}
+revive	Revive	When you would die, heal to VAL (works once)
+	power:	{}
+dread	Dread	dread_hint
+	power:	{event="dmg",play={range="enemy",weak=1}}
+wavesofcreation	wavesofcreation	wavesofcreation_hint
+	power:	{event="voodoo",play={dmg=1,dtype=3,range="enemies",strX=0}}
+juggernaut2	juggernaut2	juggernaut2_hint
+	power:	{event="armor",play={dmg=5,dtype=2,range="rnd",strX=0}}
+thequietroom	thequietroom	thequietroom_hint
+	power:	{event="exhausted",play={range="self",battlefervor=1}}
+retaincards	retaincards	At the end of your turn, Retain up to VAL card
+	power:	{event="turn"}
+afterimage	afterimage	afterimage_hint
+	power:	{event="played_any",play={armor=1,dexX=0,range="self"}}
+noxiousfumes	noxiousfumes	noxiousfumes_hint
+	power:	{event="turn",play={range="enemies",poison=1}}
+creativeai	creativeai	creativeai_hint
+	power:	{event="turn",play={range="self",create={attr="ctype",count=1,val=3}}}
+shuffling	Shuffling	shuffling_hint
+	power:	{event="turn",play={draw=3,discard=2}}
+phoenix	phoenix	phoenix_hint
+	power:	{event="revived",play={range="self",addCards={hand={"Phoenix Wing"}}}}
+corruption	Corruption	Skill cards costs 0. Whatever you play a Skill, Exhausts it.
+	power:	{number=false,rewrite={ctype=2,attrs={energy=0,exhaust=true}}}
+prime	Prime	prime_hint
+	power:	{event="add_pet",play={range="self",draw=1}}
+preventdmg	preventdmg	preventdmg_hint
+	power:	{}
+burningplates	burningplates	burningplates_hint
+	power:	{hinted=true,event="dmg",play={dmg=1,strX=0,once={range="self",nextTurn={range="self",armor=1}},range="enemy",dtype=3}}
+panache	Panache	panache_hint
+	power:	{event="played_cards_5",play={dmg=1,dtype=3,range="enemies",strX=0}}
+losingfocus	losingfocus	losingfocus_hint
+	power:	{event="turn",play={range="self",focus=-1}}
+staticdischarge	staticdischarge	staticdischarge_hint
+	power:	{event="udmg",play={range="self",pets={"lightning"}}}
+focus	focus	focus_hint
+	power:	{affecting={dmg=true,armorToTarget=true,shadowcharge=true}}
+wobblyunion	wobblyunion	wobblyunion_hint
+	power:	{event="turn",play={rndCards={{healRnd=3,heal=2},{harmRnd=2,harm=1}}}}
+uncontrollableritual	uncontrollableritual	uncontrollableritual_hint
+	power:	{event="turn",play={range="self",rndCards={{dollofpain=3},{dollofhope=2}}}}
+artifact	Artifact	Mitigates the next Debuff
+	power:	{event="condition"}
+drawonpower	drawonpower	drawonpower_hint
+	power:	{event="played_3",play={range="self",draw=1}}
+storm	Storm	storm_hint
+	power:	{event="played_3",play={pets={"lightning"}}}
+simulation	Simulation	simulation_hint
+	power:	{event="samecardinhand",play={range="self",str=1}}
+thousandcuts	thousandcuts	thousandcuts_hint
+	power:	{event="played_any",play={dmg=1,dtype=3,range="enemies",strX=0}}
+absorption	Absorption	absorption_hint
+	power:	{event="debuff",play={range="self",battlefervor=1}}
+armorpiercing	armorpiercing	armorpiercing_hint
+	power:	{super=true}
+manashield	manashield	manashield_hint
+	power:	{super=true,event="turnEnd",play={range="self",armorFromEnergyMax=1}}
+petsmax	petsmax	petsmax_hint
+	power:	{hidden=true}
+burn	Burn	burn_hint
+	power:	{hinted=true,event="burned",play={dmg=1,dtype=3,range="self",strX=0}}
+brutality	Brutality	brutality_hint
+	power:	{event="turn",play={draw=1,harm=1}}
+thereisnoregret	thereisnoregret	thereisnoregret_hint
+	power:	{event="turn",play={dmg=1,dmgRnd=6,strX=0,range="rnd",dtype=3}}
+firebreath	firebreath	firebreath_hint
+	power:	{event="played_1",play={dmg=1,dtype=3,range="enemies",strX=0}}
+souleater	souleater	souleater_hint
+	power:	{event="kill",play={range="self",heal=1}}
+magnetism	Magnetism	magnetism_hint
+	power:	{event="turn",play={range="self",create={attr="class",count=1,val="none"}}}
+energetic	energetic	energetic_hint
+	power:	{event="turn",play={range="self",energyAdd=1}}
+drawpower	drawpower	drawpower_hint
+	power:	{event="turn",play={range="self",draw=1}}
+charmmin	charmmin	charmmin_hint
+	power:	{event="turn",play={range="enemies",ifEnemy={play={range="enemy",charm=1},condition="charm",val=0}}}
+feelnopain	feelnopain	feelnopain_hint
+	power:	{event="exhausted",play={armor=1,dexX=0,range="self"}}
+genie	genie	genie_hint
+	power:	{event="turn",play={str=1,strRnd=2,harmRnd=2,harm=0,range="self"}}
+thornmail	Thornmail	thornmail_hint
+	power:	{event="harm",play={dmg=1,dtype=3,range="enemies",strX=0}}
+liquidlies	liquidlies	liquidlies_hint
+	power:	{event="played_1",play={battlefervor=1}}
+thedarkhalf	thedarkhalf	thedarkhalf_hint
+	power:	{event="turn",play={range="self",ifEnemy={hpLess=50,play={range="self",battlefervor=1}}}}
+bloodgift	bloodgift	bloodgift_hint
+	power:	{event="harm",play={range="rnd",poison=1}}
+voidwind	voidwind	voidwind_hint
+	power:	{event="played_2",play={dmg=1,dtype=3,range="enemies",strX=0}}
+juggernaut1	juggernaut1	juggernaut1_hint
+	power:	{event="armor",play={dmg=3,dtype=2,range="rnd",strX=0}}
+devilfriendship	devilfriendship	devilfriendship_hint
+	power:	{event="played_2",play={range="rnd",charm=1}}
+combust	Combust	combust_hint
+	power:	{event="turnEnd",play={dmg=1,dtype=3,range="enemies",strX=0}}
+envenom	Envenom	envenom_hint
+	power:	{event="unblocked_dmg",play={range="enemy",poison=1}}
+infiniteblades	infiniteblades	infiniteblades_hint
+	power:	{event="turn",play={range="self",addCards={hand={"Shiv"}}}}
+lacrimarium	Lacrimarium	lacrimarium_hint
+	power:	{event="turn",play={energyAdd=1,harm=1}}
+charmstorm	charmstorm	charmstorm_hint
+	power:	{event="turn",play={range="enemies",charm=1}}
+rupture	Rupture	rupture_hint
+	power:	{event="harm",play={str=1,range="self"}}
+abyssalscream	abyssalscream	abyssalscream_hint
+	power:	{event="dmg",play={range="enemy",charm=1}}
+evolve	Evolve	evolve_hint
+	power:	{event="addedCtype4",play={range="self",draw=1}}
+udmgtoarmor	udmgtoarmor	udmgtoarmor_hint
+	power:	{event="udmg",play={nextTurn={range="self",armor=1},range="self",tag="udmgtoarmor"}}
+demon	demon	demon_hint
+	power:	{event="turn",play={str=1,range="self"}}
+losingdex	losingdex	losingdex_hint
+	power:	{event="turn",play={range="self",dex=-1}}
+barricade	Barricade	Armor no longer expires
+	power:	{event="turnEnd",number=false}

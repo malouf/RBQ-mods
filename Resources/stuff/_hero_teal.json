@@ -1,0 +1,6 @@
+{
+	"tag":"Sorcerer", "scin":"sorcerer", "class":"teal", "hp":80, "money":99,
+	"deck":["Strike", "Strike", "Strike", "Strike", "Strike", "Defend", "Defend", "Defend", "Defend", "Winning"],
+	"relics":[], "tags":["summon"],
+	"state":"developing",
+}
